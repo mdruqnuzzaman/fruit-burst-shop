@@ -30,8 +30,8 @@
 <!-- navbar section -->
 <header>
   <!-- header sections -->
-  <div class="navbar no-underline bg-red-500 rounded-full flex-1 justify-between px-8">
-    <div class="flex-row gap-4">
+  <div class="navbar  bg-red-500 rounded-full flex-1 justify-between px-8">
+    <div class="flex-row gap-4 px-8">
     <Li>Home</Li>
     <Li>About Us</Li>
     <Li>Shop</Li>
@@ -82,12 +82,13 @@
   </div>
 </section>
 <section class=" flex justify-between">
-  <!-- card section -->
-  <div class="bg-red-200">
-    <H3>Deal of the day</H3>
-    <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+  <!-- deal sections -->
+  <div class="px-60 w-6/12 py-10">
+    <H3 class="text-xl font-extrabold">Deal of the day</H3>
+    <p class="text-sm">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
   </div>
-  <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+  
+  <div class="grid grid-flow-col gap-5 text-center auto-cols-max px-60 w-6/12 py-10">
     <div class="flex flex-col">
       <span class="countdown font-mono text-5xl">
         <span style="--value:15;"></span>
@@ -114,14 +115,13 @@
     </div>
   </div>
 
-  </div>
 </section>
 
 <!-- card section -->
-<section>
-  <div  class= "grid grid-cols-4 gap-4 justify-between">
-    <div>
-      <card></card>
+<section class=" bg-red-200">
+  <div  class= "grid grid-cols-4 mx-60 gap-4 my-10">
+    <div class= " w-60 max-h-96">
+      <card>
       <img src="./images/fruit1.png" alt="">
       <p>12.90$ - 18.85$</p>
       <h6>Apple</h6>
@@ -148,10 +148,12 @@
 
       </div>
 
-     
     </div>
+  </card>
+  
     <div>
-      <card></card>
+
+      <card>
       <img src="./images/fruit1.png" alt="">
       <p>12.90$ - 18.85$</p>
       <h1>Orange</h1>
@@ -177,10 +179,10 @@
 </dialog>
 
       </div>  
-     
+    </card>
     </div>
     <div>
-      <card>Apple</card>
+      <card>Apple
       <img src="./images/fruit1.png" alt="">
       <p>12.90$ - 18.85$</p>
       <h1>Red Dragon</h1>
@@ -206,10 +208,10 @@
 </dialog>
 
       </div>
-    
+    </card>
     </div>
     <div>
-      <card></card>
+      <card>
       <img src="./images/fruit1.png" alt="">
       <p>12.90$ - 18.85$</p>
       <h1>Banana</h1>
@@ -234,13 +236,15 @@
   </form>
 </dialog>
       </div>
-  
+    </card>
     </div>
   </div>
-  <div class="text-xl text-center py-10"> 
-    <button>Shop Now</button>
-  </div>
 </section>
+
+<!-- shop sections -->
+<div class="text-3xl text-center py-10"> 
+  <button class="bg-red-500 text-white py-2 px-2 ">Shop All</button>
+</div>
 <!-- team sections -->
 <section>
   <div class="hero min-h-screen" style="background-image: url(./images/banner1.png);">
